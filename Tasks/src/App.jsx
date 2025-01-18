@@ -3,6 +3,7 @@ import TodoList from './Tasks/TodoList'
 import Popup from './Tasks/Popup'
 import FormValidation from './Tasks/FormValidation'
 import SimpleTask from './Tasks/SimpleTask'
+import FileExplorer from './Tasks/FileExplorer'
 
 const App = () => {
   return (
@@ -10,7 +11,8 @@ const App = () => {
       {/* <TodoList/> */}
        {/* <Popup/> */}
        {/* <FormValidation /> */}
-       <SimpleTask />
+       {/* <SimpleTask /> */}
+        <FileExplorer />
     </div>
   )
 }
